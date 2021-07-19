@@ -190,7 +190,7 @@ echo "<h2 style='text-align: center;'>{$fullname}'s Points of Interests</h2>";
                                 <td>${address}</td>
                             </tr>`;
                         $("#poi_table tbody").append(row)
-                        initialize(); // reset the map to keep the markers
+                        // initialize(); // reset the map to keep the markers
                     }
                 });
             }
